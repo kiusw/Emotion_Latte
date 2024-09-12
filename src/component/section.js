@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 import '../css/section.css'
 
+=======
+>>>>>>> 2605a04 (	deleted:    public/favicon.ico)
 function Section() {
   return(
     <section>

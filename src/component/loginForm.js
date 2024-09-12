@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import '../css/loginForm.css'
 
 function LoginForm() {
@@ -8,6 +9,17 @@ function LoginForm() {
       <input type="password" placeholder="비밀번호를 입력해주세요" id="inputPassword" />
       <button id="loginButton">로그인</button>
     </form>
+=======
+function LoginForm() {
+  return(
+    <loginForm>
+      <div id="id">아이디</div>
+      <input type="text" id="inputId" />
+      <div id="password">비밀번호</div>
+      <input type="password" id="inputPassword" />
+      <button id="loginButton">로그인 버튼</button>
+    </loginForm>
+>>>>>>> 2605a04 (	deleted:    public/favicon.ico)
   )
 };
 

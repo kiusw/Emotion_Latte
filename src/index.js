@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import './index.css';
 >>>>>>> 9c68b7e (Initialize project using Create React App)
+=======
+>>>>>>> 2605a04 (	deleted:    public/favicon.ico)
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -14,10 +17,13 @@ root.render(
   </React.StrictMode>
 );
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 >>>>>>> 9c68b7e (Initialize project using Create React App)
+=======
+>>>>>>> 2605a04 (	deleted:    public/favicon.ico)
 reportWebVitals();

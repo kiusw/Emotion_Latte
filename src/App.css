@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 * {
   margin:0;
   padding:0;
@@ -28,40 +29,119 @@ body {
 =======
 .App {
   text-align: center;
+=======
+@font-face {
+  font-family:"Galmuri14";
+  src:url(/src/asset/Galmuri14.ttf) format("truetype");
+  font-weight:normal;
+  font-style:normal;
+>>>>>>> 2605a04 (	deleted:    public/favicon.ico)
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  display:flex;
+  justify-content:center;
+  margin:5% 0 0 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.gridContainer {
+  display:grid;
+  grid-template-columns: 1200px;
+  grid-template-rows: 200px 200px 200px 200px;
+  grid-template-areas:
+  " logo "
+  " . "
+  " loginForm "
+  " . "
+  " section "
+  " . "
+  " footer ";
+}
+/* 컬럼 너비, 로우 높이*/
+#logo {
+  border:1px solid black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+loginForm {
+  display:grid;
+  grid-template-columns: 200px 200px 800px;
+  grid-template-rows: 100px 100px;
+  grid-template-areas:
+  " id inputId loginButton "
+  " password inputPassword loginButton ";
+  grid-area:loginForm;
 }
 
-.App-link {
-  color: #61dafb;
+#id {
+  border:1px solid black;
+  grid-area:id;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#inputId {
+  border:1px solid black;
+  grid-area:inputId;
 }
+<<<<<<< HEAD
 >>>>>>> 9c68b7e (Initialize project using Create React App)
+=======
+
+#password {
+  border:1px solid black;
+  grid-area:password;
+}
+
+#inputPassword {
+  border:1px solid black;
+  grid-area:inputPassword;
+}
+
+#loginButton {
+  border:1px solid black;
+  grid-area:loginButton;
+}
+/* 중간 아래 섹션 부분 */
+section {
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-end;
+  align-items:center;
+  border:1px solid black;
+}
+#saveIdCheckBox {
+  border:1px solid black;
+}
+
+#savePasswordCheckBox{
+  border:1px solid black;
+}
+
+#savePassword {
+  border:1px solid black;
+}
+
+#autoLogin {
+  border:1px solid black;
+}
+/* 맨 아래 푸터 부분 */
+footer {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+
+  border:1px solid black;
+}
+
+#recoverId {
+  border:1px solid black;
+}
+
+#recoverPassword {
+  border:1px solid black;
+}
+
+#newAccount {
+  border:1px solid black;
+}
+>>>>>>> 2605a04 (	deleted:    public/favicon.ico)
