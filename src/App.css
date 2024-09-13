@@ -41,47 +41,47 @@ body {
 body {
   display:flex;
   justify-content:center;
-  margin:5% 0 0 0;
+  margin:2% 0 0 0;
 }
 
 
 .gridContainer {
   display:grid;
-  grid-template-columns: 1200px;
-  grid-template-rows: 200px 200px 200px 200px;
+  grid-template-columns: 700px;
+  grid-template-rows: 400px 100px 200px 100px;
   grid-template-areas:
   " logo "
-  " . "
-  " loginForm "
-  " . "
+  " loginForm " /* 할당 높이 */
   " section "
-  " . "
   " footer ";
+  border:2px double black;
 }
 /* 컬럼 너비, 로우 높이*/
 #logo {
-  border:1px solid black;
+  width:400px;
+  height:400px;
+  grid-area:logo;
 }
 
 loginForm {
   display:grid;
-  grid-template-columns: 200px 200px 800px;
-  grid-template-rows: 100px 100px;
+  grid-template-columns: 50px 600px;
+  grid-template-rows: 50px 10px 50px 30px 50px;
   grid-template-areas:
-  " id inputId loginButton "
-  " password inputPassword loginButton ";
+  " . inputId "
+  " . . "
+  " . inputPassword "
+  " . . "
+  " . loginButton ";
   grid-area:loginForm;
 }
 
-#id {
-  border:1px solid black;
-  grid-area:id;
-}
-
 #inputId {
-  border:1px solid black;
+  padding:6px;
+  font-size:20px;
   grid-area:inputId;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 9c68b7e (Initialize project using Create React App)
 =======
@@ -89,15 +89,28 @@ loginForm {
 #password {
   border:1px solid black;
   grid-area:password;
+=======
+#inputId::placeholder {
+  font-size:15px;
+>>>>>>> a5f2161 (	modified:   src/App.css)
 }
 
 #inputPassword {
-  border:1px solid black;
+  padding:6px;
+  font-size:20px;
   grid-area:inputPassword;
+}
+#inputPassword::placeholder {
+  font-size:15px;
 }
 
 #loginButton {
-  border:1px solid black;
+  text-align:center;
+  
+  border-radius:5%;
+  background-color:#A374DB;
+  color:white;
+
   grid-area:loginButton;
 }
 /* 중간 아래 섹션 부분 */
@@ -106,22 +119,17 @@ section {
   flex-direction:row;
   justify-content:flex-end;
   align-items:center;
-  border:1px solid black;
 }
 #saveIdCheckBox {
-  border:1px solid black;
 }
 
 #savePasswordCheckBox{
-  border:1px solid black;
 }
 
 #savePassword {
-  border:1px solid black;
 }
 
 #autoLogin {
-  border:1px solid black;
 }
 /* 맨 아래 푸터 부분 */
 footer {
@@ -130,18 +138,19 @@ footer {
   justify-content:space-around;
   align-items:center;
 
-  border:1px solid black;
 }
 
 #recoverId {
-  border:1px solid black;
 }
 
 #recoverPassword {
-  border:1px solid black;
 }
 
 #newAccount {
+<<<<<<< HEAD
   border:1px solid black;
 }
 >>>>>>> 2605a04 (	deleted:    public/favicon.ico)
+=======
+}
+>>>>>>> a5f2161 (	modified:   src/App.css)

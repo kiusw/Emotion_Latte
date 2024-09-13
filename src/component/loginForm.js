@@ -13,11 +13,9 @@ function LoginForm() {
 function LoginForm() {
   return(
     <loginForm>
-      <div id="id">아이디</div>
-      <input type="text" id="inputId" />
-      <div id="password">비밀번호</div>
-      <input type="password" id="inputPassword" />
-      <button id="loginButton">로그인 버튼</button>
+      <input type="text" placeholder="아이디를 입력해주세요" id="inputId" />
+      <input type="password" placeholder="비밀번호를 입력해주세요" id="inputPassword" />
+      <button id="loginButton">로그인</button>
     </loginForm>
 >>>>>>> 2605a04 (	deleted:    public/favicon.ico)
   )
