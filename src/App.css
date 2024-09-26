@@ -1,0 +1,26 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+@font-face {
+  font-family:"Galmuri14";
+  src:url(./asset/Galmuri14.ttf) format("truetype");
+  font-weight:normal;
+  font-style:normal;
+}
+
+body {
+  margin:1% 0 0 0;
+  background-color:#E8DCCA;
+}
+
+.flexContainer {
+  display:flex;
+  flex-direction: column;
+  width:700px;
+  height:850px;
+  margin: 0 auto;
+  border:2px dashed black;
+}

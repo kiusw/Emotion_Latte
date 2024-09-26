@@ -1,0 +1,23 @@
+footer {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+  position:relative;
+  margin-top:10px;
+  padding:10px;
+}
+
+footer::before, footer::after {
+  content:'';
+  position:absolute;
+  top:0;
+  width:40%;
+  border-top: 2px dotted black;
+}
+footer::before{
+  left:70px;
+}
+footer::after {
+  right:70px;
+}
