@@ -17,6 +17,7 @@ function App() {
       <Advertisement />
     </div>
       <AutoSlider />
+      <AutoSlider />
     </>
   );
 }
