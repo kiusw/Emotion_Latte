@@ -1,0 +1,13 @@
+section {
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-end;
+  align-items:center;
+  padding-right:50px;
+}
+#saveIdCheckBox {
+  margin-right: 5px;
+}
+#savePasswordCheckBox {
+  margin:0 5px 0 10px;
+}
