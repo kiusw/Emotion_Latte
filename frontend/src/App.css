@@ -1,0 +1,16 @@
+@import url('https://fastly.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+* {margin:0; padding:0; box-sizing:border-box;}
+ul, ol {list-style:none;}
+a {text-decoration:none;}
+
+/* 1. Fonts */
+
+@font-face {
+  font-family:"Galmuri7";
+  src: url('https://fastly.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+  font-style:normal;
+}
+
+body {
+  font-family:"Galmuri7"
+}

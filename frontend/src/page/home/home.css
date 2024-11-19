@@ -1,0 +1,27 @@
+.home_image_container1 {
+  position:absolute;
+  width:55vw;
+  height:95vh;
+  top:5%;
+  left:0;
+  overflow:hidden;
+}
+
+
+.go_to_login {
+  position: absolute;
+  top:45%;
+  left:75%;
+  background-color:#00C400;
+  border:0.2em solid #AEECAE;
+  color:white;
+}
+
+.go_to_sign_up {
+  position: absolute;
+  top:55%;
+  left:75%;
+  background-color:white;
+  border:0.2em solid #E2E2E2;
+  color:#353535;
+}
