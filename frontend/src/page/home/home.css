@@ -1,0 +1,68 @@
+/* 전체 컨테이너 설정 */
+.home_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* 중앙 정렬에서 시작 위치로 수정 */
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* 이미지 컨테이너1 - 상단 이미지 */
+.home_image_container1 {
+  width: 100%;
+  height: 40vh;
+  margin-bottom:30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* 버튼 컨테이너 - 로그인/회원가입 버튼 */
+.button_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* 버튼 스타일 */
+.go_to_login {
+  background-color: #00c400;
+  border: 0.2em solid #aeecae;
+  color: white;
+  padding: 10px 20px;
+}
+
+.go_to_sign_up {
+  background-color: white;
+  border: 0.2em solid #e2e2e2;
+  color: #353535;
+  padding: 10px 20px;
+}
+
+/* AutoSlider 컨테이너 - 하단 중앙에 배치 */
+.auto_slider_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* AutoSlider 스타일 */
+.auto_slider {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
