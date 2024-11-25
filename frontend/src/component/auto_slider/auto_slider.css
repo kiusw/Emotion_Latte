@@ -1,0 +1,48 @@
+.auto_slider {
+  position:relative;
+  top:10%;
+  left:70%;
+  width:300px;
+  height:300px;
+  overflow:hidden;
+}
+
+.auto_slider ul {
+  list-style-type:none;
+  position:absolute;
+  width:400%;
+  height:300px;
+
+  animation: slide 12s infinite;
+}
+
+.auto_slider li {
+  float:left;
+  width:25%;
+  height:300px;
+}
+
+.auto_slider img {
+  width:100%;
+  height:auto;
+  object-fit: cover;
+}
+
+.auto_slider li:nth-of-type(1) { background-image: url("../../asset/bunny.png"); }
+.auto_slider li:nth-of-type(2) { background-image: url("../../asset/cat.png"); }
+.auto_slider li:nth-of-type(3) { background-image: url("../../asset/dog.png"); }
+.auto_slider li:nth-of-type(4) { background-image: url("../../asset/human.png"); }
+
+
+
+@keyframes slide {
+  0% {left:0;}
+  5% {left:-100%;}
+  33% {left:-100%;}
+  38% {left:-200%;}
+  66% {left:-200%;}
+  71% {left:-300%;}
+  99.9% {left:-300%;}
+  99.99% {left:0;}
+  100% {left:0;}
+}

@@ -1,0 +1,48 @@
+body{
+  height: 100vh;
+  width: 100%;
+
+}
+.friend_header{
+  height: 8vh;
+}
+.my_profile{
+  position: relative;
+  height: 8vh;
+}
+.my_profile_img{
+  width: 50px;
+  height: 50px;
+}
+.birthday_friend{
+  height: 13vh;
+}
+.birthday{
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.friend {
+  overflow-y:scroll;
+  height: 64vh;
+}
+.img1{
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+}
+.img2{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.search_friend{
+  width: 50%;
+}
+
